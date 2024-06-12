@@ -7,9 +7,6 @@ window.importMap = {
 import { PaperJSInterpreter } from "https://unpkg.com/paperjs/import.min.js";
 import "@material/web/all.js";
 import { styles as typescaleStyles } from "@material/web/typography/md-typescale-styles.js";
-import { PaperJSInterpreter } from './import.min.js';
-
-PaperJSInterpreter.interpret(paperjs);
 
 document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
 
